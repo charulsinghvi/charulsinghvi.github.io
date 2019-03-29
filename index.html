@@ -1,26 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Charul Singhvi</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Charul Singhvi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:whitesmoke;
+  padding:5%;
+  float:left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10ch;
+  margin: 10%;
+  width:30%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#030303f3;
+  border-radius: 4px;
+  padding:2%;
+  float:left;
+  margin-top: 10%;
+  width:24%; /* The width is 60%, by default */
+}
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
 </head>
 <body>
- 
-<div class="container">
-  <h2>Charul Singhvi</h2>
-  
-  <div class="card" style="width:400px">
-    <img class="card-img-top" src="Pictures/charul.jpg" alt="Profile Picture" style="width:100%">
-    <div class="card-body">
-      
-      <p class="card-text">architect and engineer</p>
-      
+
+<div class="left">
+  <div style="display:inline-block">
+    <div class="card text-white bg-info mb-3" style="max-width: 30rem;">
+      <div class="card-header card text-center">Charul Singhvi</div>
+      <div class="card-body">
+        <h5 class="card-title">Developer</h5>
+        <p class="card-text">A web developer engaged in development of applications, learner of data anaytics.</p>
+      </div>
     </div>
+  </div>
+  <div>
+      <i class="fa fa-google-plus-square" style="font-size:48px"></i>
+      <i class="fa fa-linkedin-square" style="font-size:48px"></i>
+      <i class="fa fa-instagram" style="font-size:48px"></i>
+      <i class="fa fa-facebook" style="font-size:48px"></i>
+  </div>
+</div>
+
+<div class="main">
+  <div class="card-deck">
+    <img src="C:\Users\HP\Pictures\Camera Roll\charul2.png" style="border-radius: 10px;">
   </div>
 </div>
 
